@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 4</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Nadpis</h1>
+        <p>lorem ipsum</p>
+        <button onclick="toggleModal(false)">Stlac</button>
+        <div id="fade" onclick="toggleModal(true)">
+        </div>
+
+        <input type="text" name="" id="event-input">
+        <hr>
+        <button id="table-button" onclick="generateTable()">Generuj tabulku</button>
+
+        <div id="table-container"></div>
+
+        <div class="modal-container">
+            <div class="modal">
+                <h3>Nazov okna</h3>
+                <hr>
+                <p>Naozaj chcete zavriet okno?</p>
+                <button onclick="toggleModal(true)">Zavriet</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/javascript.js"></script>
+</body>
+</html>
